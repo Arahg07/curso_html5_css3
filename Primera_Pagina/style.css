@@ -17,8 +17,35 @@ body{
 }
 h1{
 
-    height: 150 px;
+    height: 50px;
     padding: 20px;
     margin: 40px;
+
+}
+
+.items{
+    font-style: italic;
+    font-size: 25px;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 20%;
+}
+.listas{
+    background: #96556a48;
+    padding: 30px;
+}
+.bloque01{
+    background: #FFFFFF;
+    padding: 30px;
+}
+.imagenReferencia{
+    width: 30%;
+}
+.titulo{
+    text-align: center;
+    font-size: 30px;
 
 }
