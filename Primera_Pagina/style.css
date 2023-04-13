@@ -1,6 +1,24 @@
 p, h1{
     text-align: center;
 }
-p{
+p{  
     font-size: 20px;
+}
+
+body{
+    background: #b3c6c9;
+}
+#resaltar{
+    font-size: 25px;
+}
+
+#banner{
+    width: 100%;    
+}
+h1{
+
+    height: 150 px;
+    padding: 20px;
+    margin: 40px;
+
 }
