@@ -1,0 +1,101 @@
+.logo{
+    width: 15%;
+}
+header{
+    background-color: #95ddb1;
+    padding: 20px 0;
+}
+nav{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+
+}
+nav li{
+    display: inline;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0 0 0 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.caja{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.herramientas li{
+    display: inline-block;  
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background-color: #EEEEEE;
+    margin: 0 1.5%;
+    padding:  30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width:  2px;
+    border-style: solid;
+    border-radius: 20px;
+
+}
+.herramientas{ 
+    width: 940px;
+    margin: 0 auto;  
+    padding: 50px;
+    font-size: 18px;
+}
+.descripcion{
+    font-size: 25px;
+    text-align:unset;
+    margin-top: 20px;
+}
+.numero{
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 10px;
+}
+.img_card{
+    width: 50px;
+}
+h3{
+    font-size: 30px;
+    padding: 15px 0;
+}
+.herramientas li:hover{
+    background-color: #85dd73;
+    border-color: #f0bd4e;
+}
+.herramientas li:hover h3{
+
+    font-size: 35px;
+}
+
+.herramientas li:active{
+    background-color: #f0bd4e;
+    border-color: #6ec3dd;
+}
+
+footer{
+    text-align: center;
+    background-color: #bcd145;
+    padding: 40px;
+}
+.logo_footer{
+    width: 8%;
+}
+.Copyright{
+    color: #f51919;
+    margin: 20px;
+    font-size: 20px;
+}
