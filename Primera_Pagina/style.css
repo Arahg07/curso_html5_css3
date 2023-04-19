@@ -15,19 +15,13 @@ body{
 #banner{
     width: 100%;    
 }
-h1{
 
-    height: 50px;
-    padding: 20px;
-    margin: 40px;
-
-}
 
 .items{
     font-style: italic;
     font-size: 25px;
 }
-ul{
+.indicadores{
     display: inline-block;
     vertical-align: top;
     width: 20%;
