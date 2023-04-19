@@ -4,15 +4,35 @@
         <meta charset="UTF-8"/>
         <title>Primera p&aacute;gina</title>        
         <link rel = "stylesheet" href="style.css">
+        <link rel="stylesheet" href="pagina02.css">
     </head>  
 
     <body>
-        <div>
-            <header class="titulo">
-                Página de prueba
-            </header>
-        </div>
-        <img id="banner" src="img/banner.jpg">
+        <header>
+            <div class="caja">
+                <img src="img/pagina02_img04.svg" class="logo">
+                <h1>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Página 01</a></li>
+                            <li><a href="pagina02.html">Página 02</a></li>
+                            <li><a href="#">Página 03</a></li>
+                        </ul>
+                    </nav>    
+                </h1>
+            </div>
+        </header>
+
+        <main>
+            <div>
+                <header class="titulo">
+                    Página de prueba
+                </header>
+            </div>
+            <div>
+                <img id="banner" src="img/banner.jpg">
+            </div>
+        </main>
 
         <div class="bloque01">
             <h1>Prueba</h1>
@@ -24,7 +44,7 @@
 
         <div class="listas">
             <h2>Listas</h2>
-            <ul>
+            <ul class="indicadores">
             <li class="items">Indicador 01</li>
             <li class="items">Indicador 02</li>
             <li class="items">Indicador 03</li>
@@ -33,5 +53,11 @@
 
             <img src="img/img01.jpg" class="imagenReferencia">
         </div>
+
+        <footer>
+            <img src="img/pagina02_img06.png" class="logo_footer">
+            <p class="Copyright">&copy; Copyright AraHg - 2023</p>
+            
+        </footer>
     </body>
 </html>
