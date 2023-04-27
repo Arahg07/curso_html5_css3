@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Página 03</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="pagina02.css">
+        <link rel="stylesheet" href="pagina03.css">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1>
+                    <img src="img/pagina02_img04.svg" class="logo" alt="Logo">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Página 01</a></li>
+                            <li><a href="pagina02.html">Página 02</a></li>
+                            <li><a href="#">Página 03</a></li>
+                        </ul>
+                    </nav>    
+                </h1>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nombreApellido" >Nombre y Apellido</label>
+                <input type="text" id="nombreApellido" class="input-patron" required>
+
+                <label for="correo">Correo electronico</label>
+                <input type="email" id="correo" class="input-patron" required placeholder="email@dominio.com">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="input-patron" required placeholder="(XX) XXXXXXXX">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-patron" required></textarea>
+
+                <fieldset>
+                    <legend>Elige una opción</legend>
+
+                    <input  type="radio" value="email" id="radio-email" name="contacto">
+                    <label for="radio-email">Email</label>
+                    
+                    <input  type="radio" value="telefono" id="radio-telefono" name="contacto">
+                    <label for="radio-telefono">Teléfono</label>
+
+                    <input  type="radio" value="whatsapp" id="radio-whatsapp" name="contacto">
+                    <label for="radio-whatsapp">WhatsApp</label>
+      
+                </fieldset>
+                <fieldset>
+                    <legend>Seleccione una opción</legend>
+                    <select>
+                        <option>Opción 01</option>
+                        <option>Opción 02</option>
+                        <option>Opción 03</option>
+                        <option>Opción 04</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox">
+                <input type="checkbox"> Marca la siguiente casilla. </label>
+                <input type="submit" value="Enviar información" class="enviar">                
+
+            </form>
+            <table>
+                <thead>
+                    <th>Columna 01</th>
+                    <th>Columna 02</th>
+                </thead>
+                <tr>
+                    <td>Fila 01</td>
+                    <td>Fila 01</td>
+                </tr>
+                <tr>
+                    <td>Fila 02</td>
+                    <td>Fila 02</td>
+                </tr>
+                <tr>
+                    <td>Fila 03</td>
+                    <td>Fila 03</td>
+                </tr>
+            </table>
+        </main>
+
+        <footer>
+            <img src="img/pagina02_img06.png" class="logo_footer" alt="logo">
+            <p class="Copyright">&copy; Copyright AraHg - 2023</p>
+            
+        </footer>
+    </body>
+    
+</html>
