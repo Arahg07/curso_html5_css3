@@ -2,9 +2,14 @@
 <html lang = "es">
     <head>
         <meta charset="UTF-8"/>
-        <title>Primera p&aacute;gina</title>        
+        <meta name="viewport" content="width=device-width">
+        <title>Primera p&aacute;gina</title>    
+        <link rel="stylesheet" href="reset.css">    
         <link rel = "stylesheet" href="style.css">
         <link rel="stylesheet" href="pagina02.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>  
 
     <body>
@@ -23,36 +28,48 @@
             </div>
         </header>
 
+        <img class="banner" src="img/banner.jpg">
+
         <main>
-            <div>
-                <header class="titulo">
+            <section class="principal">
+                        
+                <h2 class="titulo">
                     Página de prueba
-                </header>
-            </div>
-            <div>
-                <img id="banner" src="img/banner.jpg">
-            </div>
+                </h2>
+        
+                <img class="imagen-muestra02" src="img/img02.jpg" alt="Imagen que contiene una persona con equipo de computo de forma animada">
+        
+                <div class="bloque01">
+                    <h1>Prueba</h1>
+    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quae! Aliquid suscipit nesciunt, sed debitis amet quibusdam reprehenderit similique nisi porro aperiam praesentium labore veritatis quam quaerat natus possimus. Reiciendis?</p>
+                    <p id="resaltar">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam ipsa sint quae. Eius soluta impedit labore illo facilis dolor, consequatur adipisci architecto cum quia, repellendus non aliquid odit consequuntur voluptas!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime pariatur possimus error, nihil vero tenetur velit iste, nostrum nesciunt cum, officia esse corrupti qui perspiciatis maiores. Officiis excepturi dolorem optio!</pe=>
+                </div>
+            </section>
+            <section class="mapa">
+                <h3>Ubicación</h3>
+                <p>Mapa</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3762.5321107255654!2d-99.13579547587558!3d19.432611940682616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sz%C3%B3calo%20de%20la%20ciudad%20de%20m%C3%A9xico!5e0!3m2!1ses!2smx!4v1683270931156!5m2!1ses!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="listas">
+                    <h2>Listas</h2>
+                    <div class="contenidoLista">
+                        <ul class="indicadores">
+                            <li class="items">Indicador 01</li>
+                            <li class="items">Indicador 02</li>
+                            <li class="items">Indicador 03</li>
+                            <li class="items">Indicador 04</li>
+                        </ul><img src="img/img01.jpg" class="imagenReferencia">
+                    </div>
+                </div>
+                <div class="video">
+                    <iframe  height="315" src="https://www.youtube.com/embed/rbuYtrNUxg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </section>
+            
+            
+            
         </main>
-
-        <div class="bloque01">
-            <h1>Prueba</h1>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quae! Aliquid suscipit nesciunt, sed debitis amet quibusdam reprehenderit similique nisi porro aperiam praesentium labore veritatis quam quaerat natus possimus. Reiciendis?</p>
-            <p id="resaltar">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam ipsa sint quae. Eius soluta impedit labore illo facilis dolor, consequatur adipisci architecto cum quia, repellendus non aliquid odit consequuntur voluptas!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime pariatur possimus error, nihil vero tenetur velit iste, nostrum nesciunt cum, officia esse corrupti qui perspiciatis maiores. Officiis excepturi dolorem optio!</pe=>
-        </div>
-
-        <div class="listas">
-            <h2>Listas</h2>
-            <ul class="indicadores">
-            <li class="items">Indicador 01</li>
-            <li class="items">Indicador 02</li>
-            <li class="items">Indicador 03</li>
-            <li class="items">Indicador 04</li>
-            </ul>
-
-            <img src="img/img01.jpg" class="imagenReferencia">
-        </div>
 
         <footer>
             <img src="img/pagina02_img06.png" class="logo_footer">
